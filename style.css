@@ -26,8 +26,14 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-.responsive{
+.responsive-text{
     width:100%;
+    height: auto;
+}
+
+.responsive-img{
+    width:60%;
+    height: auto;
 }
 
 .bloc {
@@ -94,7 +100,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
