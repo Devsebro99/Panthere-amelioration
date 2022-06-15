@@ -32,6 +32,7 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 .responsive-text{
+    font-weight: lighter;
     width:100%;
     height: auto;
 }
@@ -102,11 +103,6 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.webp");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -665,7 +661,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -690,19 +686,13 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
+
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}
 
 .cta-hero {
     margin-top: 22px;
@@ -718,13 +708,21 @@ p {
     margin: auto auto auto auto;
 }
 
+h1 {
+    color: #333333!important;
+    font-size: 20px;
+}
+
 h2 {
-    font-weight: bold;
     background-color: #F3976C;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
+
+h4 {
+    color: #333333!important;
+} 
 
 h3 {
     font-size: 15px;
@@ -733,18 +731,14 @@ h3 {
     color: #333333!important;
 }
 
+p {
+    font-size: 18px;
+}
+
 .med-width-whitespace {
     width:100%;
     margin: auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
 }
 
 .icons {
@@ -770,7 +764,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -788,11 +782,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: transparent;
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
