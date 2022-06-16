@@ -36,9 +36,8 @@ a:hover {
     width:100%;
     height: auto;
 }
-
 .responsive-img{
-    width:60%;
+    width:90%;
     height: auto;
 }
 
@@ -655,7 +654,6 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
     font-weight: 400;
     color: #333333!important;
 }
@@ -699,28 +697,24 @@ a {
 
 h1 {
     color: #333333!important;
-    font-size: 38px;
 }
 
 h2 {
     background-color: #F3976C;
     text-align: center;
-    font-size: 25px;
-    line-height: 1.4em;
+    line-height: 1.6em;
 }
 
 h3 {
-    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
 
-h4 {
-    color: #333333!important;
-} 
-
-
+h4{
+    color: #F3976C!important;
+    font-weight: 700;
+}
 
 p {
     font-size: 16px;
@@ -773,7 +767,7 @@ p {
 }
 
 .bgc-atomic-tangerine {
-    background-color: transparent;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -786,7 +780,7 @@ p {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #deb9a6!important;
     color: #FFFFFF!important;
 }
 
