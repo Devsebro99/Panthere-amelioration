@@ -92,7 +92,7 @@ a:hover {
 
 .bloc-bg-texture::before {
     content: "";
-    background-size: 2px 2px;
+    background-size: 20px 20px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -128,7 +128,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -680,7 +679,7 @@ a {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #333333!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -709,7 +708,7 @@ h3 {
 }
 
 h4{
-    color: #F3976C!important;
+    color: #FFFFFF!important;
     font-weight: 700;
 }
 
@@ -728,8 +727,12 @@ p {
     margin-top: 24px;
 }
 
-.white {
+.white{
     color: #FFFFFF!important;
+}
+
+.dark {
+    color: #333333!important;
 }
 
 .portfolio-thumb {
@@ -773,7 +776,7 @@ p {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -871,7 +874,7 @@ p {
 
 @media (max-width: 767px) {
     .page-container {
-        overflow-x: hidden;
+        overflow-x:hidden;
         position: relative;
     }
     h1,
