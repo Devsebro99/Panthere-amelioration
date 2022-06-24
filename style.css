@@ -11,6 +11,10 @@ body {
     flex-direction: row;
     align-items: center;
 }
+.attenuer{
+    color: #333333;
+    opacity: 0.5;
+}
 
 a,
 button {
