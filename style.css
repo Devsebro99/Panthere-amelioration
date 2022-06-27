@@ -10,7 +10,10 @@ body {
     flex-direction: row;
     align-items: center;
 }
-
+.bloc-img{
+    width: 100%;
+    height: 300px;
+}
 .attenuer{
     color: #333333;
     opacity: 0.5;
