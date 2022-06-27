@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -11,6 +10,7 @@ body {
     flex-direction: row;
     align-items: center;
 }
+
 .attenuer{
     color: #333333;
     opacity: 0.5;
@@ -677,7 +677,7 @@ a {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 100%;
     margin: auto auto auto auto;
 }
 
@@ -740,7 +740,9 @@ p {
 }
 
 .portfolio-thumb {
+    width: 100%;
     margin-bottom: 24px;
+    
 }
 
 .portfolio-row {
