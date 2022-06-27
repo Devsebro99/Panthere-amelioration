@@ -741,8 +741,8 @@ p {
 
 .portfolio-thumb {
     width: 100%;
+    height: 400px;
     margin-bottom: 24px;
-    
 }
 
 .portfolio-row {
